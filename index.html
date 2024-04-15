@@ -21,7 +21,7 @@
                 <img src="./assets/images/icon-menu.svg" alt="ícone do menu hamburguer">
            </button>
 
-           <nav>
+           <nav class="mobile">
                 <button>
                     <img src="./assets/images/icon-menu-close.svg" alt="ícone de x para fechar o menu">
                 </button>
@@ -32,12 +32,29 @@
             <a href="#">Tranding</a>
             <a href="#">Categorias</a>
            </nav>
+
+           <nav class="desktop">
+            <a href="#">Home</a>
+            <a href="#">Novo</a>
+            <a href="#">Popular</a>
+            <a href="#">Tranding</a>
+            <a href="#">Categorias</a>
+
+
+           </nav>
+
+
+     </header>
+
+     <header class="header-desktop">
      </header>
 
      <main>
         <section class="primeira-secao">
-            <img src="./assets/images/image-web-3-mobile.jpg" alt="ícone de puzzle colorido">
-
+            <picture>
+                <source media="(min-width: 700px)" srcset="./assets/images/image-web-3-desktop.jpg">
+                <img src="./assets/images/image-web-3-mobile.jpg" alt="ícone de puzzle colorido">
+            </picture>
             <h1>O futuro brilhante da Web 3.0?</h1>
             <p>Nós mergulhamos na proxima evolução da web que afirma devolver o poder das plataformas para as mãos das pessoas. Mas será que ela realmente está cumprindo sua promessa?</p>
             <button>Ler Mais</button>
